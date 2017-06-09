@@ -7,7 +7,7 @@ export function makeAutosuggest({ completers = [] }) {
     editor.setOptions({
       enableBasicAutocompletion: true,
       enableSnippets: true,
-      enableLiveAutocompletion: true
+      enableLiveAutocompletion: false
     })
 
     editor.completers = completers
